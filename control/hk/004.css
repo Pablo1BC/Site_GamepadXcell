@@ -1,0 +1,33 @@
+body {
+
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    
+    margin: 0;
+
+
+
+    display: block;
+    align-items: center;
+ /* Alterado para centralizar vertical e horizontalmente */
+  }
+  .quadro{
+  
+    max-width: 80%;
+  }
+  #text-container{
+    font-size: 0.6rem;
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  .blinking {
+    animation: blink 0.1s infinite;
+  }
+  @keyframes blink {
+    0%, 50% {
+      opacity: 0;
+    }
+    51%, 100% {
+      opacity: 1;
+    }
+  }
