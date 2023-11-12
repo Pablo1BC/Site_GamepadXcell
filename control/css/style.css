@@ -58,4 +58,6 @@ main{
             
             background-color: rgba(243, 243, 243, 0.685);
             line-height: 1.5; /* Exemplo: 1.5 é um valor relativo */
+
+            padding: 5px;
         }
