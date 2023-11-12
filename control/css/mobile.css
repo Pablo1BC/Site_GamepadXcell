@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+  /* Estilos específicos para dispositivos com largura máxima de 600 pixels */
+main{
+  width: 100%;
+  max-width: 100%;
+}
+}
