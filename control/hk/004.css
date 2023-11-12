@@ -20,6 +20,9 @@ body {
     margin-top: 1%;
     margin-left: 10%;
   }
+  .text{
+    color: rgb(67, 211, 15);
+  }
   .blinking {
     animation: blink 0.1s infinite;
   }
