@@ -32,6 +32,15 @@ function exibirImagens(jsonData) {
                   <div id="${imgId}" class="img_div" onclick="abrirModal('${imgId}', '${link}')" >
                       <img class="imgs" src='${link}' alt='img'>
                   </div>
+
+                  <div class="quadrado">
+                    <div class="texto">
+                        <p >'${link}'</p>
+                    </div>
+                    <div onclick="copiarTexto('${link}')" class="btnCopiar">
+                        Copiar!
+                    </div>
+                </div>
               `;
           }
   

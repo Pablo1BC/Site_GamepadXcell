@@ -1,6 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .quadrado {
+        background-color: rgba(82, 78, 78, 0.5);
+        display: flex;
+        align-items: center;
+        margin: auto;
+        border-radius: 50px; /* Ou qualquer valor desejado para arredondar a quina direita */
+        width: 90vw;
+        height: 30px;
+        overflow: hidden;
+        border: 1px solid #000;
+    }
+
+    .texto {
+        background-color: rgba(255, 245, 245, 0.212);
+        margin-left: 10px;
+        text-align: left;
+        width: 85vw;
+    }
+
+    .texto p {
+        color: rgb(111, 0, 255);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0;
+    }
+
+    .btnCopiar {
+        margin: auto;
+        cursor: pointer;
+        padding: 8px 20px;
+        background-color: rgb(111, 0, 255);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        /* FORMATAÇÂO DE TEXTO*/
+        caret-color: transparent;
+        user-select: none;
+    }
+
+    .btnCopiar:hover {
+        background-color: rgb(8, 8, 8);
+
+    }
+  </style>
+</head>
+<body>
+
+
+
+</body>
+</html>
+
+
+
+<div id="mensagem"></div>
+<script src="copiarTexto.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -17,20 +98,22 @@ margin-top:4vh;
 
 
 width: 90vw;
- background-color: rgba(0, 0, 0, 0.5);
+ background-color: rgba(157, 207, 245, 0.5);
 }
 
 .img_div,
 .imgs{
-margin-bottom:3vw;
+
 
 width:90vw;
 height:60vw;
-background-color:red;
+
 
 
 }
-
+.img_div{
+    margin-top:3vw;
+}
          
 </style>
 
@@ -40,3 +123,6 @@ background-color:red;
 <script src="./imagens.js"></script>
 </body>
 </html>
+
+
+
