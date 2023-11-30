@@ -34,12 +34,15 @@ function exibirImagens(jsonData) {
                   </div>
 
                   <div class="quadrado">
+
                     <div class="texto">
                         <p >'${link}'</p>
                     </div>
+
                     <div onclick="copiarTexto('${link}')" class="btnCopiar">
                         Copiar!
                     </div>
+                    
                 </div>
               `;
           }
